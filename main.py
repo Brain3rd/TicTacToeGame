@@ -54,7 +54,7 @@ def update_board(move, char):
 def player_move():
     while True:
         try:
-            move = int(input('What position do you want put your X? Choose between 1-9:'))
+            move = int(input('What position do you want to play? Choose between 1-9:'))
         except ValueError:
             print('Invalid input. Choose a number between 1 and 9.')
             continue
